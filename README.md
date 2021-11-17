@@ -7,6 +7,8 @@ For flashing this to an Attiny85, you must set:
 - efuse: 0xff
 - hfuse: 0xdf
 - lfuse: 0xE2
+
+18-25mA power draw with default settings, maximum measured draw 50mA at full brightness with white color. The LEDs get really bright!
 _______________________________
 You can cycle through several modes in this kit. Navigation through the menus is done by holding Select and pressing Left or Right. You will know you’ve entered a menu when you see the LEDs blink twice. Here are the different menu options with their respective controls, in order:
 
