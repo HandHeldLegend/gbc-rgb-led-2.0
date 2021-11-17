@@ -2,6 +2,11 @@
 ## Version 2 of the Gameboy Color RGB LED mod by NiceMitch. 
 This update features a streamlined user interface to customize the color options. 
 See this link for a video install guide: https://www.youtube.com/watch?v=BZriLR9Ldtk
+
+For flashing this to an Attiny85, you must set:
+- efuse: 0xff
+- hfuse: 0xdf
+- lfuse: 0xE2
 _______________________________
 You can cycle through several modes in this kit. Navigation through the menus is done by holding Select and pressing Left or Right. You will know you’ve entered a menu when you see the LEDs blink twice. Here are the different menu options with their respective controls, in order:
 
